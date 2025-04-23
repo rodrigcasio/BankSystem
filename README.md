@@ -14,9 +14,9 @@ A C++ program simulating bank accounts with deposists, withdrawals, transfers, a
 -  'classBank.hpp' : Bank class for account management.
 
 # Sample Output 
-![Bank Output](screenshot1.png)
-![Bank Output](screenshot2.png)
 ![Bank Output](screenshot3.png)
+![Bank Output](screenshot2.png)
+![Bank Output](screenshot1.png)
 
 
 ## How to run
