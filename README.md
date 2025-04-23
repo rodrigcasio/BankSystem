@@ -14,12 +14,10 @@ A C++ program simulating bank accounts with deposists, withdrawals, transfers, a
 -  'classBank.hpp' : Bank class for account management.
 
 # Sample Output 
-Account #1010: $1203.60
-Account #1011: $5490.00
-Account #1012: $10580.63
 ![Bank Output](screenshot1.png)
 ![Bank Output](screenshot2.png)
 ![Bank Output](screenshot3.png)
+
 
 ## How to run
 ```bash
