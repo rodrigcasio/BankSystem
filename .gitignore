@@ -1,0 +1,10 @@
+# Executables
+bank
+*.exe
+
+# Object files
+*.o
+
+# Temporary files
+*.tmp
+*.bak
