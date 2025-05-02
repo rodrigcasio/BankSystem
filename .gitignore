@@ -1,10 +1,17 @@
 # Executables
 bank
 *.exe
+*.out
+*.app
 
-# Object files
+# Compiled Object files
 *.o
+*.obj
 
 # Temporary files
 *.tmp
 *.bak
+
+# Precompiled Headers (optional, if you use them)
+*.gch
+*.pch
