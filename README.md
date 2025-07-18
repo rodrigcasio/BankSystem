@@ -1,5 +1,6 @@
-# Bank System
-A C++ program simulating bank accounts with deposits, withdrawals, transfers, and interest calculations.
+# Bank System (C++)
+
+This is a C++ project I made to practice object-oriented programming (OOP) and to build something a bit more complete. The program simulates a simple bank system where you can create accounts, deposit and withdraw money, transfer funds, and apply interest. I put extra effort into this one to really understand how to organize a bigger project.
 
 ## Features
 -  Create accounts with initial balances and interest rates.
@@ -8,24 +9,23 @@ A C++ program simulating bank accounts with deposits, withdrawals, transfers, an
 -  Apply interest to savings accounts (2% for #1010, 9% for #1012).
 
 ## Purpose
-Developed as part of my C++ learning journey to master object-oriented programming (OOP) concepts, including encapsulation, polymorphism, and vector usage. This project builds on my earlier work, like `RestaurantInheritance`, to simulate real-world banking operations.
 
-## Files 
-- **Source Files** (`src/`):
-  - `mainBankAccount.cpp`: Main program logic to test account operations.
-  - `fns_BankAccount.cpp`: Implementation of account and transaction methods.
- 
-- **Header Files** (`include/`):
-  - `h_BankAccount.hpp`: `BankAccount` class declaration.
-  - `h_classBank.hpp`: `Bank` class for account management.
+I made this project to get better at using classes, vectors, and OOP ideas in C++. I wanted to see if I could put together a small system that feels more like a real application, and learn how to manage more code and features.
 
-## How to run
-```bash
-g++ src/mainBankAccount.cpp src/fns_BankAccount.cpp -I include -o bank
-./bank
-```
+## How to Run
 
-# Sample Output 
+1. Make sure you have a C++ compiler (like g++) installed.
+2. Compile the code:
+   ```
+   g++ src/mainBankAccount.cpp src/fns_BankAccount.cpp -I include -o bank
+   ```
+3. Run the program:
+   ```
+   ./bank
+   ```
+
+## Sample Output
+
 ### Account Creation
 - Account #1010 created with balance: $5000.00, Interest rate: 2%
 - Account #1012 created with balance: $3000.00, Interest rate: 9%
@@ -49,15 +49,18 @@ g++ src/mainBankAccount.cpp src/fns_BankAccount.cpp -I include -o bank
 - Applying interest for #1012 (9%): $405.00
   -New balance for #1012: $4905.00
 
-
 ### Transaction History Screenshot 
 ![Bank Output](screenshot1.png)
 
-## Learning Outcomes
-- Applied OOP concepts like encapsulation (private account data) and polymorphism (virtual transaction methods).
-- Used vectors to store dynamic transaction histories.
-- Implemented real-world banking logic with interest calculations and transfers.
-- Improved project organization with src/ and include/ folders
+## What I Learned
+
+- How to use classes and private data to keep things organized and safe.
+- How to use vectors to store lists of transactions that can grow as needed.
+- How to use inheritance and virtual methods for different types of accounts or actions.
+- How to split code into different files and keep things tidy with `src/` and `include/` folders.
+- How to build a project that feels more like a real-world application, not just a small example.
 
 ## Author
-Rodrigo Casio ([View my GitHub profile](https://github.com/rodrigcasio))
+
+Rodrigo Casio  
+[My GitHub Profile](https://github.com/rodrigcasio)
