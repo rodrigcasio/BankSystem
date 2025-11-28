@@ -15,3 +15,21 @@ bank
 # Precompiled Headers (optional, if you use them)
 *.gch
 *.pch
+
+# Build System Artifacts ( Cmake or related)
+/build/
+/Build/
+
+# Cmake configuration files 
+CmakeCache.txt
+CmakeFiles/
+CmakeTesfile.cmake
+cmake_install.cmake
+install_manifest.txt
+
+# Visual studio / XCode files (if build on those platforms)
+*.sln
+*.vcxproj
+*.vcproj
+*.xcodeproj
+
